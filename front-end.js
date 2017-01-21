@@ -4,6 +4,7 @@ function F()
     {
         return function ()
         {
+
             return x;
         };
     }
@@ -13,3 +14,4 @@ function F()
     }
     return arr;
 }
+var a = 12;
