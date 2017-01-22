@@ -1,17 +1,12 @@
-function F()
+function Hero()
 {
-    function binder(x)
+    this.name = name;
+    this.occupation = 'ninja';
+    this.whoAreYou = function ()
     {
-        return function ()
-        {
-
-            return x;
-        };
+        return "I'am" +
+            this.name +
+            "and I'm a " +
+            this.occupation;
     }
-    var arr = [], i;
-    for (i = 0; i < 3; i++) {
-        arr[i] = binder(i);
-    }
-    return arr;
 }
-var a = 12;

@@ -7,15 +7,15 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceRoot}/app.js",
+            "name": "front-end.js",
+            "program": "${workspaceRoot}/front-end.js",
             "cwd": "${workspaceRoot}"
         },
         {
             "type": "node",
-            "request": "attach",
+            "request": "launch",
             "name": "Attach to Process",
-            "port": 5858
+            "port": 7474
         }
     ]
 }
